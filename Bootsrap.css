@@ -1,0 +1,48 @@
+.col-xs-12 {
+    height: 75px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+}
+.col-6{
+    height: 50px; 
+    background-color: blue; 
+    text-align: center; 
+    color: white;
+    border: 2px solid black;
+}
+.col-lg-4{
+    height: 50px;
+    border: 2px solid black;
+     color: white; 
+     background-color: blue; 
+     text-align: center;
+}
+.col-lg-8{ 
+    height: 50px;
+    color: white; 
+    background-color: blue; 
+    text-align: center; 
+    border: 2px solid black;
+}
+.col-xs-4{
+    height: 50px;
+    color: white; 
+    background-color: red; 
+    text-align: center; 
+    border: solid black;
+}
+.col-xs-8{
+    height: 50px;
+    color: white; 
+    background-color:rgb(160, 51, 51); 
+    text-align: center; 
+    border: solid black;
+}
+.col-sm-4{
+    color: white; 
+    background-color: green; 
+    text-align: center; 
+    border: solid white;
+}

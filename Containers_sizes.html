@@ -1,0 +1,48 @@
+<!-- How it works: 1) Containment provide a means to center and horizontally pad your site's content.
+    Use .container-fluid for width: 100% across all viewpoints and device sizes.
+    2) Rows are wrappers or columns. Each column has a horizontal padding called "gutter" for controlling
+    the space between them. This padding is then counteracted on the rows with negative margins. This
+    way, all the content in the columns is visually aligned to the left side.
+    3) The grid layout, content must be placed within columns and only columns may be immediate children 
+    of those. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Containers</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">.col-4</div>
+            <div class="col-4">.col-4</div>
+            <div class="col-4">.col-4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">.col-sm-14</div>
+            <div class="col-sm-4">.col-sm-4</div>
+            <div class="col-sm-4">.col-sm-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">.col-lg-4</div>
+            <div class="col-lg-4">.col-lg-4</div>
+            <div class="col-lg-4">.col-lg-4</div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4">.col-xl-4</div>
+            <div class="col-xl-4">.col-xl-4</div>
+            <div class="col-xl-4">.col-xl-4</div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
